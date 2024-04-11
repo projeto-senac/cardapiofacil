@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1. Estilizações da Página Index.html do Painel do Administrador */
+
+/* Estilizações da Seção da Barra Lateral */
+
+.barra-lateral {
+  height: 100%;
+}
+
+/* Fim das Estilizações da Página index.html do Painel do Administrador */
+/* 2. Estilizações da Página do Painel do Administrador */

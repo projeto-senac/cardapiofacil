@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/logo-icone.png"
+      type="image/x-icon"
+    />
+    <title>Cadastre-se - Cardápio Fácil</title>
+  </head>
+
+  <body>
+    <!-- Início da Seção de cabeçalho -->
+
+    <!-- container cor branca faixa superior -->
+    <header class="container-fluid bg-white fixed-top">
+      <!-- conteúdo do container cor branca  -->
+      <div class="container">
+        <!-- linha dentro do container para acomodar a logo -->
+        <div class="row pt-2 pb-2 d-flex align-items-center">
+          <!-- div p/ posicionar os conteudos na linha row -->
+
+          <div class="col-6">
+            <!-- Logomarca retorna p/ página principal ao clicar -->
+            <a href="/index.html">
+              <img
+                src="../assets/img/Logo-Horizontal-Cardapio-Facil.png"
+                alt="Logo Cardápio Fácil"
+                width="35%"
+              />
+              <!-- alterado tamanho da logo -->
+            </a>
+          </div>
+          <div class="col-6"></div>
+          <!-- fim da div row -->
+        </div>
+        <!-- fim do div container fixo -->
+      </div>
+    </header>
+
+    <!-- Início da Seção Principal -->
+    <main>
+      <section class="container-fluid bg-white pt-5">
+        <section class="container-fluid bg-white pt-5">
+        <section class="container-fluid bg-white pt-5">
+      </section>
+          
+      
+      <section class="container-fluid bg-white pt-0">
+
+        <section class="container-fluid bg-white pt-3">
+          <div class="container d-flex justify-content-center pt-0 pb-0">
+              <div class="form-row pt-0 pb-0">
+                <div>
+                  <p class="lh-1">Cadastre-se</p>
+                  <p class="lh-1 fs-1 ">para acessar</p>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <div class="container d-flex justify-content-center pt-0 pb-0">
+
+          
+
+            <form action="pastadestino.php" method="POST">
+              <div class="form-row pt-0 pb-5 col-12">
+                
+                
+                
+                <div class="form-group col-md-12 pt-0 pb-1 ">
+                  <label for="inputName" class="pb-1">Nome Completo:</label>
+                  <input
+                    type="text"
+                    id="inputName"
+                    class="form-control"
+                    placeholder="Digite seu nome"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-12 pb-1 ">
+                  <label for="inputEmail"class="pb-1">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Digite seu e-mail"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-12 pb-1 ">
+                  <label for="inputCPF"class="pb-1">CPF:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputCPF"
+                    placeholder="Digite seu CPF"
+                    required
+                  />
+                </div>
+                <div> <label for="inputSenha"class="pb-1">Cargo:</label>                           
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>selecione seu cargo</option>
+                    <option value="1">Atendente</option>
+                    <option value="2">Caixa</option>
+                    <option value="3">Administrador</option>
+                    <option value="3">Administrador Sistema</option>
+                    <option value="3">Cozinha</option>
+                  </select>
+                  </div>
+
+                <div class="form-group col-md-12 pb-1 ">
+                  <label for="inputSenha"class="pb-1">Senha:</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputSenha"
+                    placeholder="Digite sua senha"
+                    required
+                  />
+                </div>
+                
+
+                <div class="form-group col-md-12 pb-0 ">
+                  <label for="inputSenha2" class="pb-1 ">Repita Senha:</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputSenha2"
+                    placeholder="Repita sua senha"
+                    required
+                  />
+                </div>
+                <div class="d-grid gap-2 col-md-12 text-center pt-3 "><button type="submit" class="btn btn-danger ">Cadastrar</button></div>
+                <div class="d-grid gap-2 col-md-12 text-center pt-1 ">
+                
+                  <small>Você já tem uma conta? <a href="/login/index.html">Acesse aqui!</a></small>
+                </div>
+              </div>
+              
+              </div>
+          
+          
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
